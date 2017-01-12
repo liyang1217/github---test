@@ -81,6 +81,7 @@
 		F95388241E271D0700D3724D /* Github - test */ = {
 			isa = PBXGroup;
 			children = (
+				F953884A1E2722EA00D3724D /* Classes */,
 				F95388281E271D0700D3724D /* AppDelegate.h */,
 				F95388291E271D0700D3724D /* AppDelegate.m */,
 				F953882B1E271D0700D3724D /* ViewController.h */,
@@ -109,6 +110,45 @@
 				F95388411E271D0800D3724D /* Info.plist */,
 			);
 			path = "Github - testUITests";
+			sourceTree = "<group>";
+		};
+		F953884A1E2722EA00D3724D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F953884B1E2722EA00D3724D /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F953884B1E2722EA00D3724D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F953884C1E2722EA00D3724D /* Controller */,
+				F953884D1E2722EA00D3724D /* Model */,
+				F953884E1E2722EA00D3724D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F953884C1E2722EA00D3724D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F953884D1E2722EA00D3724D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F953884E1E2722EA00D3724D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
